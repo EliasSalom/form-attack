@@ -11,7 +11,7 @@ this a test script to attack a every form in every website
 ## Using 
 1. open command line
 2. navigate to script folder 
-3. run it with ```java -jar form-search.jar```
+3. run it with ```java -jar version1.jar```
 	> if you won't provide any argument there, should appear HELP message
 4. to run it with arguments just add
 ```sh
@@ -22,4 +22,8 @@ java -jar form-searsh.jar -links website1.com
 java -jar form-searsh.jar -links website1.com,website2.com
 ```
 ## Version
-> this is version 1
+|  Version   |  Description                                  |
+| ---------- | --------------------------------------------- |
+| Version 1  | Basic script to submit form with random data  |
+| Version 2  | Fix issues: submit to offline website         |
+| Version 3  | Add new future: write the data to a txt file  |
